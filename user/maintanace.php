@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintanence</title>
+    <style>
+           body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #00f7eaff, #03f052ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      background: rgba(7, 211, 238, 0.37);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(250, 255, 255, 1);
+      animation: pulse 2s infinite;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 0 10px #1404f8e7;
+      }
+      50% {
+        box-shadow: 0 0 30px #ff1ee1ff;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌙sedang pemeliharaan sistem</h1>
+        <p>maaf,website kami sedang melakukan pemeliharaan sistem untuk pengalaman yang lebih baik.
+            <br>mohon kembali lagi beberapa saat.terima kasih atas kesabaran anda..!!
+        </p>
+    </div>
+</body>
+</html>
